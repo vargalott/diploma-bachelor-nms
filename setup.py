@@ -2,12 +2,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="diploma_nms",
-    author="andinoriel",
-    author_email="simonnikolaj20@gmail.com",
-    url="https://github.com/andinoriel/diploma-nms",
-    description="simple web server for diploma module:network",
-    version="0.0.1",
+    name="diploma_bachelor_nms",
+    author="vargalott",
+    url="https://github.com/vargalott/diploma-bachelor-nms",
+    description="simple web server for diploma-bachelor module:network",
+    version="1.1.0",
     packages=find_packages(),
     install_requires=[
         "setuptools>=45.0",
@@ -15,7 +14,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "diploma-nms=diploma-nms.__main__:main",
+            "diploma-bachelor-nms=diploma-bachelor-nms.__main__:main",
         ]
     },
 )

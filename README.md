@@ -1,6 +1,6 @@
-# diploma-nms
+# diploma-bachelor-nms
 
-Simple web server for [diploma](https://github.com/Andinoriel/diploma) module:network.
+Simple web server for [diploma-bachelor](https://github.com/vargalott/diploma-bachelor) module:network.
 
 ## Usage
 
